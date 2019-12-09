@@ -1,4 +1,6 @@
-# vertical-align
+---
+title: vertical-align
+---
 
 > 有些时候 `vertical-align` 的渲染结果并不同我们想象的一样。
 > 虽然现在已经有很多 CSS 属性可以完美替代 `vertical-align` 的渲染效果，但作为一个Front-End Programmer，怎么能不搞清楚它？
@@ -116,4 +118,3 @@ HTML 代码：
    ![-10px](./images/vertical-align/vertical-align-9.png)
 
    > <font color="red">！</font>IE6 / 7 下的`vertical-align`百分比值不支持小数的`line-height`。
-
