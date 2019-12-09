@@ -33,8 +33,6 @@ title: vertical-align
 
 看表格的描述太抽象，还不如来点儿实际的～
 
-## 实现
-
 HTML 代码：
 
 ```html
@@ -53,7 +51,7 @@ HTML 代码：
 
    实际上文本子元素是文本内容放在父元素基线上。因为这是默认值，其他子元素都是`baseline`。
 
-   ![baseline](./images/vertical-align/vertical-align-1.png)
+   ![baseline](/images/vertical-align/vertical-align-1.png)
 
 2. **`top`**：元素的顶端与行中最高元素的顶端对齐。
 
@@ -63,17 +61,17 @@ HTML 代码：
 
    从`baseline`看，这里的最高元素是参照图。
 
-   ![top](./images/vertical-align/vertical-align-2.png)
+   ![top](/images/vertical-align/vertical-align-2.png)
 
 3. **`text-top`**：元素的顶端与父元素字体的顶端对齐。
 
-   ![text-top](./images/vertical-align/vertical-align-3.png)
+   ![text-top](/images/vertical-align/vertical-align-3.png)
 
 4. **`middle`**：元素在父元素内垂直居中。
 
    可以看出，`middle`实际是指元素中部与父元素文本中部对齐。
 
-   ![middle](./images/vertical-align/vertical-align-4.png)
+   ![middle](/images/vertical-align/vertical-align-4.png)
 
 5. **`bottom`**：元素底端与行中最低元素底端对齐。
 
@@ -83,13 +81,13 @@ HTML 代码：
 
    从`baseline`可以看出这里最低元素是 content 元素。
 
-   ![bottom](./images/vertical-align/vertical-align-5.png)
+   ![bottom](/images/vertical-align/vertical-align-5.png)
 
 6. **`text-bottom`**：元素底端与父元素文本底端对齐。
 
    > <font color="red">！</font>这和`baseline`是不一样的。
 
-   ![text-bottom](./images/vertical-align/vertical-align-6.png)
+   ![text-bottom](/images/vertical-align/vertical-align-6.png)
 
 7. **长度值**：使用定长表示元素底部与父元素基线的距离。
 
@@ -101,7 +99,7 @@ HTML 代码：
    }
    ```
 
-   ![10px](./images/vertical-align/vertical-align-7.png)
+   ![10px](/images/vertical-align/vertical-align-7.png)
 
 8. **百分比**：元素底部相对于父元素基线移动相对于元素行高`line-height`的百分比。
 
@@ -113,10 +111,10 @@ HTML 代码：
 
    假设`.align`本身未设置行高，继承的行高是`20px`，这里的`-10%`代表的实际值是`-10% × 20 = -2px`，所以是让元素下降 2 像素。
 
-   ![-2px](./images/vertical-align/vertical-align-8.png)
+   ![-2px](/images/vertical-align/vertical-align-8.png)
 
    设置`.align`行高为`100px`，这里的`-10%`代表的实际值是`-10% × 100 = -10px`，所以是让元素下降 10 像素。
 
-   ![-10px](./images/vertical-align/vertical-align-9.png)
+   ![-10px](/images/vertical-align/vertical-align-9.png)
 
    > <font color="red">！</font>IE6 / 7 下的`vertical-align`百分比值不支持小数的`line-height`。
