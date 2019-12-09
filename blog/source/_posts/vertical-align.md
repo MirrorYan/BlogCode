@@ -33,6 +33,8 @@ title: vertical-align
 
 看表格的描述太抽象，还不如来点儿实际的～
 
+## 实现
+
 HTML 代码：
 
 ```html
@@ -46,8 +48,6 @@ HTML 代码：
   <img src="./img/**.png" alt="reference image">
 </div>
 ```
-
-## 实现
 
 1. **`baseline`**：元素放在父元素的基线上。
 
